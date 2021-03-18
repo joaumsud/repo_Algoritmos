@@ -1,17 +1,21 @@
 #include <stdio.h>
-int main(){
-    int a,b;
+int main()
+{
+    int a, b;
 
     printf("Digite o valor de A: ");
-    scanf("%d",&a);
+    scanf("%d", &a);
     printf("Digite o valor de B: ");
-    scanf("%d",&b);
+    scanf("%d", &b);
 
-    if(a==b){
-        printf("Soma de A + B= %d", a+b);
-    }else{
-        printf("Multiplicacao de A e B= %d", a*b);
+    if (a == b)
+    {
+        printf("Soma de A + B= %d", a + b);
+    }
+    else
+    {
+        printf("Multiplicacao de A e B= %d", a * b);
     }
 
-    return(0);
+    return (0);
 }
