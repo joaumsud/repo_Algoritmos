@@ -2,7 +2,7 @@
 #include <locale.h>
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "Portuguese");
     int numero, multiplicador, fatorial = 1;
     printf("Digite um numero qualquer: ");
     scanf("%d",&numero);
