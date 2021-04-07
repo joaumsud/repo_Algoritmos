@@ -4,13 +4,16 @@ int main()
     int v[10], x;
     for (x = 0; x <= 9; x++)
     {
-        printf("Entrar com o elemento da posicao [%d]:", x, v[x]);
+        printf("Digite um Numero [%d]: ", x);
         scanf("%d", &v[x]);
-        if (x <= 30)
+    }
+    for (x = 0; x <= 9; x++)
+    {
+        if (v[x] <= 30)
         {
-
-            x = 1;
+            v[x] = 1;
         }
+        printf("Elemento [%d] = %d\n", x, v[x]);
     }
 
     return (0);
